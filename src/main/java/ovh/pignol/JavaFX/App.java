@@ -1,13 +1,9 @@
 package ovh.pignol.JavaFX;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main( String[] pArguments )
     {
-        
+    	ApplicationGUI.launch(ApplicationGUI.class, pArguments);
     }
 }
